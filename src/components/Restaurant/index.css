@@ -1,0 +1,23 @@
+.restaurant-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurant-container img {
+  border-radius: 10px;
+  height: 245px;
+
+  width: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.restaurant-container h2 {
+  font-size: 32px;
+}
+
+.restaurant-container p {
+  font-size: 19px;
+  color: #868a8a;
+}
