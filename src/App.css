@@ -1,16 +1,18 @@
 header {
   height: 59px;
-  /* border-bottom: 1px rgba(197, 196, 196, 0.945) solid; */
+  border-bottom: 1px #f3f5f5 solid;
   display: flex;
   align-items: center;
 }
 header img {
   height: 46px;
   width: 160px;
+  margin-left: 340px;
 }
 
-/* header img { }  */
-.container {
-  width: 1205px;
-  margin: 0 auto;
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
 }

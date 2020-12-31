@@ -1,6 +1,10 @@
-/* menu-container {
-  background-color: #f3f5f5;
-} */
 .menu-container {
   background-color: #f3f5f5;
+
+  display: flex;
+}
+
+.category {
+  margin-left: 340px;
+  border: #f3f5f5 solid 2px;
 }

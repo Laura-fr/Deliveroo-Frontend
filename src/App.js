@@ -4,6 +4,8 @@ import axios from "axios";
 import Menu from "./components/Menu";
 import Restaurant from "./components/Restaurant";
 import logo from "./assets/img/logo-teal.svg";
+import Loader from "react-loader-spinner";
+
 function App() {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -20,16 +22,24 @@ function App() {
     fetchData();
   }, []);
   return isLoading ? (
-    <span>En cours de chargement... </span>
+    <Loader
+      className="loader"
+      type="Oval"
+      color="#43CDBD"
+      height={200}
+      width={200}
+      timeout={5000} //5 seconds
+    />
   ) : (
     <div className="container">
       <header>
         <img alt="logo" src={logo} />
       </header>
-      <hr />
-      <Restaurant data={data.restaurant} />
 
-      <Menu data={data.categories} />
+      <Restaurant data={data.restaurant} />
+      <div>
+        <Menu data={data.categories} />
+      </div>
     </div>
   );
 }
