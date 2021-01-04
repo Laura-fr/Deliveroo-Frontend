@@ -3,15 +3,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-
   width: 400px;
   border-radius: 10px;
   margin: 15px 15px 0 0;
   background-color: white;
   box-sizing: border-box;
+  cursor: pointer;
 }
+
 .menu-item-container h3 {
   font-size: 18px;
+  font-weight: normal;
 }
 .menu-item-container p {
   font-size: 14px;

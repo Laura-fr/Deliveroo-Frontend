@@ -1,3 +1,5 @@
+/* Global CSS */
+
 header {
   height: 59px;
   border-bottom: 1px #f3f5f5 solid;
@@ -15,4 +17,28 @@ header img {
   align-items: center;
   justify-content: center;
   margin-top: 250px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+footer {
+  height: 160px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma, sans-serif;
+}
+
+a:link {
+  color: #43cdbd;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #43cdbd;
+  text-decoration: none;
 }
