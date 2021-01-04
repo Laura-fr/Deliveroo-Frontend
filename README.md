@@ -1,6 +1,6 @@
 # Deliveroo 
 
-This is a simple copy of a deliveroo restaurant page made with react.
+This is a simple copy of a Deliveroo restaurant page made with react.
 
 ## Features
 
