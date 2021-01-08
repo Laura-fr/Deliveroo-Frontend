@@ -1,4 +1,4 @@
-# Deliveroo 
+# Deliveroo 🍕
 
 A simple copy of a Deliveroo restaurant page with some nice features, and all this is made with react.
 
