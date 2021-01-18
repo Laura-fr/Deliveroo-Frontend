@@ -1,6 +1,5 @@
 .menu-container {
   background-color: #f3f5f5;
-
   display: flex;
 }
 
@@ -22,4 +21,30 @@
 
 .total {
   font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1265px) {
+  .category {
+    margin: 50px 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .category {
+    margin: 50px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .category {
+    margin: 50px 30px;
+  }
+  .menu-container {
+    flex-direction: column;
+  }
+  .category:last-child {
+    margin-bottom: 0px;
+  }
 }

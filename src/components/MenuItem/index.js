@@ -33,9 +33,7 @@ const MenuItem = ({ data, setProducts, products }) => {
         <span>{data.price} €</span>
       </div>
 
-      {data.picture && (
-        <img style={{ height: 130 }} src={data.picture} alt={data.title} />
-      )}
+      {data.picture && <img src={data.picture} alt={data.title} />}
     </div>
   );
 };

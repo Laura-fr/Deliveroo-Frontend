@@ -25,8 +25,39 @@
   color: #808484;
 }
 .menu-item-container img {
+  height: 130px;
   width: 130px;
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1265px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .menu-item-container {
+    width: 250px;
+    display: flex;
+  }
+
+  .menu-item-container h3 {
+    font-size: 12px;
+  }
+  .menu-item-container p {
+    display: none;
+  }
+  .menu-item-container span {
+    font-size: 11px;
+  }
+  .menu-item-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
 }

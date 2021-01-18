@@ -8,7 +8,7 @@ const Restaurant = ({ data }) => {
         <h2>{data.name}</h2>
         <p>{data.description}</p>
       </div>
-      <img style={{ height: 235 }} src={data.picture} alt={data.name} />
+      <img src={data.picture} alt={data.name} />
     </div>
   );
 };

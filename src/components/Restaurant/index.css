@@ -23,3 +23,44 @@
   font-size: 19px;
   color: #868a8a;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1497px) {
+  .restaurant-container h2 {
+    font-size: 27px;
+  }
+
+  .restaurant-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .restaurant-container img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .restaurant-container {
+    margin: 30px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .restaurant-container {
+    margin: 30px 10px;
+  }
+
+  .restaurant-container h2 {
+    font-size: 20px;
+  }
+  .restaurant-container p {
+    font-size: 16px;
+  }
+
+  .restaurant-container img {
+    height: 150px;
+    width: 300px;
+  }
+}

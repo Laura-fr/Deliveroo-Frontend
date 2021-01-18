@@ -55,3 +55,22 @@
   margin-left: 8px;
   margin-right: 8px;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1265px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    margin: 50px 30px;
+    position: static;
+    margin-top: 0px;
+  }
+  .cart-button {
+    width: 200px;
+  }
+}
